@@ -11,6 +11,8 @@ Guia para poder instalar los Drivers de la pantalla tactil Ubuntu.
 - Entrar en la carpeta descomprimida en la terminal e ingresar el siguiente comando.
         
         - sudo ./install.sh 
+
+- Van a aparecer varias opciones en las cuales vamos a seleccionar la opcion 1 y posteriormente la opcion 12 para instalar los controladores
     
 - Despues ingresar para configurar el inicio del driver cuando el sistema bootea
         
@@ -20,9 +22,11 @@ Guia para poder instalar los Drivers de la pantalla tactil Ubuntu.
         
         - hlincal
     
-- Va a salir un menú en donde vamos a calibrar el touch, para eso ingresar 3. 
+- Va a salir un menú en donde vamos a calibrar el touch, para eso ingresar 3.
+- Despues seleccionar la opcion 5 para poder calibrar la pantalla  
 - ahí vamos a configurar el GUI, para eso ingresar 6    
 - Despues se puede seguir cambiando la configuracion para amoldarlo mas a nuestros gustos.
+- Y para terminar vamos a volver al menu anterior y si no queremos configurar nada mas se selecciona la opcion A para aplicar los cambios
 
 Guia de la instalacion completa en: GuiaDeInstalacionCompletaLinux.pdf
 
