@@ -27,7 +27,22 @@ Guia para poder instalar los Drivers de la pantalla tactil Ubuntu.
 - ahí vamos a configurar el GUI, para eso ingresar 6    
 - Despues se puede seguir cambiando la configuracion para amoldarlo mas a nuestros gustos.
 - Y para terminar vamos a volver al menu anterior y si no queremos configurar nada mas se selecciona la opcion A para aplicar los cambios
+- Para poder hacer que el driver se inicie al inicio del sistea vas a tener que hacer lo siguiente :
+	- touch /lib/systemd/system/startup.service
+- Y poner esto adentro de el archivo startup.service
 
+	[Unit]
+	Description=Startup Script
+
+	[Service]
+	ExecStart=/root/.local/bin/startup.sh
+	
+	[Install]
+	WantedBy=multi-user.target
+
+-Por ultimo poner este comando en la terminal para crear el link para el sistema 
+	- systemctl enable startup.service --now
+	
 Guia de la instalacion completa en: GuiaDeInstalacionCompletaLinux.pdf
 
 ## Lector de Tarjeta
